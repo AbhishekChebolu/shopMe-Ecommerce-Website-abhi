@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:replace="~{fragments :: page_title('Shopme')}" />
+    <meta th:replace="fragments :: meta_info" />
+    <link th:replace="fragments :: css_link" />
+    <script th:replace="fragments :: javascript_import" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div th:replace="navigation :: header_menu"></div>
+        <div th:replace="navigation :: search_nav"></div>
+
+        <div class="text-center border border-secondary rounded m-3 p-3">
+            <h2>Your Order has been Completed!</h2>
+            <h4>A confirmation email has been sent to you.</h4>
+            <h4>Kindly check your email for the details.</h4>
+        </div>
+
+        <div th:replace="navigation :: footer_menu"></div>
+    </div>
+</body>
+</html>
