@@ -1,7 +1,9 @@
 # shopMe-Ecommerce-Website-abhi
 
 📖 Information
-Here is the explanation of the project,
+
+Here is the explanation of the project,,,
+
 Shopme is a Spring Boot App as Monolith architecture. It is an e-commerce example,
 It covers both admin part and customer part,
 All images are stored in Amazon S3 Bucket,
@@ -10,6 +12,7 @@ Admin part is based i18n for Turkish and English,
 Customer register the system and login it. Next, s/he makes an order and apply payment and show previous orders,
 
 Used Dependencies--
+
 Spring Boot Web,
 Java,
 JUnit,
